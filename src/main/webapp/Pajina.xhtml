@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="/css/default.css"/>
+        <h:outputStylesheet name="/css/cssLayout.css"/>
+        <title>Facelets Template</title>
+    </h:head>
+
+    <h:body>
+
+        <div id="top" class="top">
+            <ui:insert name="top"> <center>Loja y sus tradiciones</center></ui:insert>
+        </div>
+
+        <div id="content" class="center_content">
+              <center>
+                  
+            <ui:insert name="content">Es llamada la "Capital Musical y Cultural del Ecuador" por su arquitectura,<br/> 
+                su diversidad cultural, su aporte a las artes, ciencias, música y letras ecuatorianas y por ser el lugar<br/>
+                de nacimiento de muchos personajes ilustres de la sociedad ecuatoriana.<br/>
+            
+             <img  src="https://belife.ec/wp-content/uploads/2018/07/banner-blog2.jpg" height="400px" width="400px"/></ui:insert>
+          
+          
+           </center>
+        </div>
+
+    </h:body>
+
+</html>
